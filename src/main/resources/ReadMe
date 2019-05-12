@@ -1,0 +1,15 @@
+http://localhost:8100/currency-converter/from/USD/to/INR/quantity/2
+
+http://localhost:8100/currency-converter/from/USD/to/INR/quantity/2
+http://localhost:8100/currency-converter-feign/from/USD/to/INR/quantity/2
+
+******** Feign solves other microservices call  (Alternate of RestTemplate)
+->add openfeign dependency.
+->add @enableFeign(...) to starter application
+->enable proxy to call other microservices...like "git for for spring cloud configurations" 
+->create interface (feign client to call other MS)
+->call other ms with this prozy
+
+**** Ribon for Load balancing
+->enable Ribbon on the proxy
+->configure 
